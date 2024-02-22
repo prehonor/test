@@ -1,0 +1,4 @@
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/nix/store/f7jmlkgls1glq47glv7c52k7p418sdm2-clion-2023.3.4/clion/bin/ninja/linux/x64/ninja -G Ninja -S /space/github/devshell/test/src -B /space/github/devshell/test/src/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /space/github/devshell/test/src/cmake-build-debug

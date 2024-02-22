@@ -1,0 +1,27 @@
+# Run with `flutter pub run ffigen --config ffigen.yaml`.
+name: TestBindings
+description: |
+  Bindings for `src/test.h`.
+
+  Regenerate bindings with `flutter pub run ffigen --config ffigen.yaml`.
+output: 'lib/test_bindings_generated.dart'
+headers:
+  entry-points:
+    - 'src/test.h'
+  include-directives:
+    - 'src/test.h'
+llvm-path:
+  - '/nix/store/az8jvmi1dr53jjr5ikj37nkib9n19pa6-llvm-17.0.6'
+  - '/nix/store/k0q1mslvpkdwmnj8aj1f2skx9ycbpdn3-clang-17.0.6-lib/lib/libclang.so'
+compiler-opts:
+  - '-I/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include'
+#  - '-I/nix/store/n67qypxf26ymwswk34dcrqysqsk9vb1w-libcxx-17.0.6-dev/include/c++/v1'
+#  - '-I/nix/store/k0q1mslvpkdwmnj8aj1f2skx9ycbpdn3-clang-17.0.6-lib/lib/clang/17.0.6/include'
+  - '-I/nix/store/qs1nwzbp2ml3cxzsxihn82hl0w73snr0-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include/'
+preamble: |
+  // ignore_for_file: always_specify_types
+  // ignore_for_file: camel_case_types
+  // ignore_for_file: non_constant_identifier_names
+comments:
+  style: any
+  length: full
