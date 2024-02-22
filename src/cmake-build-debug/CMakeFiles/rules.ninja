@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /nix/store/hkhmxs4n1agpdpyamlh2b78pm9wch0br-cmake-3.27.9/bin/cmake --regenerate-during-build -S/space/github/devshell/test/src -B/space/github/devshell/test/src/cmake-build-debug
+  command = /nix/store/hkhmxs4n1agpdpyamlh2b78pm9wch0br-cmake-3.27.9/bin/cmake --regenerate-during-build -S/space/github/devshell/github/test/src -B/space/github/devshell/github/test/src/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

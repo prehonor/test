@@ -1,4 +1,10 @@
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/nix/store/f7jmlkgls1glq47glv7c52k7p418sdm2-clion-2023.3.4/clion/bin/ninja/linux/x64/ninja -G Ninja -S /space/github/devshell/test/src -B /space/github/devshell/test/src/cmake-build-debug
--- Configuring done (0.0s)
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/nix/store/f7jmlkgls1glq47glv7c52k7p418sdm2-clion-2023.3.4/clion/bin/ninja/linux/x64/ninja -G Ninja -S /space/github/devshell/github/test/src -B /space/github/devshell/github/test/src/cmake-build-debug
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/4cjqvbp1jbkps185wl8qnbjpf8bdy8j9-gcc-wrapper-13.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
 -- Generating done (0.0s)
--- Build files have been written to: /space/github/devshell/test/src/cmake-build-debug
+-- Build files have been written to: /space/github/devshell/github/test/src/cmake-build-debug

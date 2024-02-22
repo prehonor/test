@@ -47,7 +47,7 @@ final DynamicLibrary _dylib = () {
     return DynamicLibrary.open('$_libName.framework/$_libName');
   }
   if (Platform.isAndroid || Platform.isLinux) {
-    return DynamicLibrary.open('/space/github/devshell/test/src/cmake-build-debug/lib$_libName.so');
+    return DynamicLibrary.open('/space/github/devshell/github/test/src/cmake-build-debug/lib$_libName.so');
   }
   if (Platform.isWindows) {
     return DynamicLibrary.open('$_libName.dll');

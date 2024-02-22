@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/space/github/devshell/test/src/cmake-build-debug"
+			"value" : "/space/github/devshell/github/test/src/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/space/github/devshell/test/src/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/space/github/devshell/github/test/src/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -475,7 +475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/space/github/devshell/test/src"
+			"value" : "/space/github/devshell/github/test/src"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/space/github/devshell/test/src/cmake-build-debug"
+			"value" : "/space/github/devshell/github/test/src/cmake-build-debug"
 		},
 		{
 			"name" : "test_library_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/space/github/devshell/test/src"
+			"value" : "/space/github/devshell/github/test/src"
 		}
 	],
 	"kind" : "cache",

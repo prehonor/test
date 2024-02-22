@@ -1,4 +1,4 @@
-# Install script for directory: /space/github/devshell/test/src
+# Install script for directory: /space/github/devshell/github/test/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/space/github/devshell/test/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/space/github/devshell/github/test/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

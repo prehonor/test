@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/space/github/devshell/test/src/cmake-build-debug",
-		"source" : "/space/github/devshell/test/src"
+		"build" : "/space/github/devshell/github/test/src/cmake-build-debug",
+		"source" : "/space/github/devshell/github/test/src"
 	},
 	"version" : 
 	{

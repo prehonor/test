@@ -41,5 +41,6 @@ FFI_PLUGIN_EXPORT CStockInfoArray* queryAllCompanies() {
     stockInfo2->exchange = new char[3]{'s','h','\0'};
     result->arr[0] = stockInfo1;
     result->arr[1] = stockInfo2;
+    return result;
 }
 }
